@@ -1,6 +1,6 @@
+let modal = document.querySelector('#modal');
 //Open modal function
 function launchModal() {
-	 let modal = document.querySelector('#modal');
 	 modal.classList.remove('modal');
 	 modal.classList.add('open-modal');
 	 console.log(modal);
@@ -8,5 +8,6 @@ function launchModal() {
 
 //Close modal function
 function closeModal() {
-	
+	modal.classList.remove('open-modal');
+	modal.classList.add('modal');
 }
