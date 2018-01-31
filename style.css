@@ -1,0 +1,11 @@
+.modal {
+	display: none;
+	
+}
+.open-modal {
+	display: block;
+	background-color: #F3F2F2;
+	border: 2px solid #000000;
+	height: auto;
+	width: 400px;
+}
